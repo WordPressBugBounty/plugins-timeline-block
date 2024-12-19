@@ -114,14 +114,14 @@ function cltb_timeline_block_load_post_assets() {
 function cltb_cp_timeline_cgb_block_assets() {
 	wp_register_style(
 		'cltb_cp_timeline-cgb-style', // Handle.
-		plugins_url( 'dist/blocks.style.build.css', dirname( __FILE__ ) ),
+		Timeline_Block_Url . 'includes/cool-timeline-block/dist/style-index.css',
 		is_admin() ? array( 'wp-editor' ) : null,
 		null
 	);
 
 	wp_register_script(
 		'cltb_cp_timeline-cgb-block-js', // Handle.
-		plugins_url( 'dist/blocks.build.js', dirname( __FILE__ ) ),
+		Timeline_Block_Url . 'includes/cool-timeline-block/dist/block.build.js',
 		array( 'wp-blocks', 'wp-i18n', 'wp-element', 'wp-editor' ),
 		null,
 		true
@@ -129,7 +129,7 @@ function cltb_cp_timeline_cgb_block_assets() {
 
 	wp_register_style(
 		'cltb_cp_timeline-cgb-block-editor-css', // Handle.
-		plugins_url( 'dist/blocks.editor.build.css', dirname( __FILE__ ) ),
+		Timeline_Block_Url . 'includes/cool-timeline-block/dist/index.css',
 		array( 'wp-edit-blocks' ),
 		null
 	);
