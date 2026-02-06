@@ -3,9 +3,9 @@ Contributors:coolplugins,narinder-singh
 Donate link:https://paypal.me/CoolPlugins/10USD/
 Requires at least: 5.0
 Tags: timeline, history, roadmap, company history, Gutenberg
-Tested up to:6.8.2
+Tested up to:6.9
 Requires PHP: 7.2
-Stable tag:1.7.4
+Stable tag:1.7.9
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Showcase your company history, process steps, milestones, and roadmap inside Gutenberg using the powerful Timeline Block
@@ -132,7 +132,26 @@ You can report security bugs through the Patchstack Vulnerability Disclosure Pro
 
 == Changelog ==
 
-Upgrade to Version 1.7.4 to enjoy these new features, enhancements, and bug fixes. Your feedback is invaluable as we continue to refine and improve our plugins.
+Upgrade to Version 1.7.9 to enjoy these new features, enhancements, and bug fixes. Your feedback is invaluable as we continue to refine and improve our plugins.
+
+= Version 1.7.9 | 02 Feb 2026 =
+- **Fixed:** Issues reported by “Plugin Check” plugin.
+- **Fixed:** Styling issues in Timeline block editor.
+
+= Version 1.7.8 | 07 Jan 2026 =
+- **Updated:** Default story image links in timeline block.
+
+= Version 1.7.7 | 27 Nov 2025 =
+- **Fixed:** Deactivation Feedback conflict with other timeline plugins.
+- **Removed:** Instant timeline plugin (Before updating to this version, you need to migrate your instant timeline block into Timeline Block).
+- **Improved:** Deactivation Feedback styling.
+
+= Version 1.7.6 | 21 Nov 2025 =
+- **Fixed:** Timeline Block style not loading issue.
+
+= Version 1.7.5 | 18 Nov 2025 =
+- **Improved:** Styling for media block Button.
+- **Improved:**  Textual changes.
 
 = Version 1.7.4 | 25 Sep 2025 =
 - **Improved:** Improved the deactivation popup.
@@ -251,6 +270,8 @@ Enhancements:
 - **Initial release**
 
 == Upgrade Notice ==
+= Version 1.7.7 | 27 Nov 2025 =
+- **Removed:** Instant timeline plugin (Before updating to this version, you need to migrate your instant timeline block into Timeline Block click [here](https://cooltimeline.com/timeline-block-migration//?utm_source=tbg_plugin&utm_medium=readme&utm_campaign=docs&utm_content=video_tutorial) to migrate process).
 = Version 1.5 | 24 Aug 2023 =
 - **New Features:**
    * Introducing the "Add New Story" button within the Story toolbar, allowing you to seamlessly add new stories at any position you prefer.
