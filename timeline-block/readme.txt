@@ -5,7 +5,7 @@ Requires at least: 5.0
 Tags: timeline, history, roadmap, company history, Gutenberg
 Tested up to:6.9
 Requires PHP: 7.2
-Stable tag:1.7.9
+Stable tag:1.8.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Showcase your company history, process steps, milestones, and roadmap inside Gutenberg using the powerful Timeline Block
@@ -54,6 +54,8 @@ Just search **‘Timeline Block‘** from the block editor **‘Add Block‘** s
 * **Timeline Widget For Elementor:** Showcase your company history, product roadmap, and personal journey in vertical & horizontal layout directly inside Elementor. **[View Demo](https://cooltimeline.com/demo/elementor-timeline-widget/free/?utm_source=tbg_plugin&utm_medium=readme&utm_campaign=demo&utm_content=twea_free_demo)**
 * **Timeline Builder:** Create a small timeline inside the Gutenberg block editor using a vertical or horizontal timeline. **[View Demo](https://cooltimeline.com/demo/timeline-builder-pro/?utm_source=tbg_plugin&utm_medium=readme&utm_campaign=demo&utm_content=tbp_view_demo)**
 * **Timeline Module Pro For Divi:** Showcase your personal story or company history using stunning vertical or horizontal timelines directly inside the Divi Builder. **[View Demo](https://cooltimeline.com/divi/?utm_source=tbg_plugin&utm_medium=readme&utm_campaign=demo&utm_content=tmdivi_view_demo)**
+
+**Use of 3rd Party Services:** This plugin connects to the Cool Plugins feedback server only for optional usage data sharing and voluntary feedback submission (for example, during plugin deactivation). Data is transmitted solely after explicit user consent. No hidden tracking is performed, and no frontend visitor or site user data is collected.  For more details, please review our [Data Usage Policy](https://my.coolplugins.net/terms/usage-tracking/), [TOS](https://my.coolplugins.net/terms/), and [Privacy Policy](https://my.coolplugins.net/terms/privacy-policy/).
 
 == Screenshots ==
 1. Gutenberg Timeline Block Preview
@@ -132,7 +134,10 @@ You can report security bugs through the Patchstack Vulnerability Disclosure Pro
 
 == Changelog ==
 
-Upgrade to Version 1.7.9 to enjoy these new features, enhancements, and bug fixes. Your feedback is invaluable as we continue to refine and improve our plugins.
+Upgrade to Version 1.8.0 to enjoy these new features, enhancements, and bug fixes. Your feedback is invaluable as we continue to refine and improve our plugins.
+
+= Version 1.8.0| 12 Feb 2026 =
+- **Updated:** Textual Changes.
 
 = Version 1.7.9 | 02 Feb 2026 =
 - **Fixed:** Issues reported by “Plugin Check” plugin.
