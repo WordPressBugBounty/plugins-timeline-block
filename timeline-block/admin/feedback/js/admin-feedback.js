@@ -6,7 +6,7 @@
         let plugin_slug = 'timeline-block'; // plugin slug
 
 
-         let $target = $('#the-list').find('[data-slug="' + plugin_name + '"] span.deactivate a');
+        $target = $('#the-list').find('[data-slug="' + plugin_name + '"] span.deactivate a');
 
         var plugin_deactivate_link = $target.attr('href');
 
@@ -86,7 +86,6 @@
                     '_wpnonce': nonce,
                     'reason': reason,
                     'message': message,
-                    consent: $('#cool-plugins-GDPR-data-notice-' + plugin_slug).is(':checked') ? 1 : 0,
                 },
                 beforeSend: function(data) {
                     $('#ctlb-cool-plugin-submitNdeactivate').text('Deactivating...');
@@ -105,8 +104,8 @@
 
         $(document).on('click', '#ctlb-cool-plugin-skipNdeactivate:not(".button-deactivate")', function() {
             $('#ctlb-cool-plugin-submitNdeactivate').remove();
-            $('#ctlb-cool-plugin-skipNdeactivate').addClass('button-deactivate');
-            $('#ctlb-cool-plugin-skipNdeactivate').attr('id', 'deactivating-plugin');
+            $('ctlb-cool-plugin-skipNdeactivate').addClass('button-deactivate');
+            $('ctlb-cool-plugin-skipNdeactivate').attr('id', 'deactivating-plugin');
             window.location = plugin_deactivate_link;
         });
 
